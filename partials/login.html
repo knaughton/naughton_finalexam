@@ -1,0 +1,11 @@
+<!-- This is the login page partial. Add HTML here. -->
+<form id="container">
+  <h2>SIGN IN</h2>
+  <input id="name" type="text" placeholder="Username" ng-model="userInfo.username">
+  <input id="pass" type="text" placeholder="********" ng-model="userInfo.password">
+  <button id="send" type="button" ng-click="checkLogin()">SIGN IN</button>
+  <a href="#!">Forgot your password</a>
+</form>
+
+
+<!-- Your two inputs **must** be assigned to one project(property on the scope), like we had been doing in our labs. -->
